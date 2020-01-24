@@ -1,6 +1,6 @@
 require "yaml"
 
-def load_library
+def load_library(string)
   # code goes here
 end
 
