@@ -5,7 +5,7 @@ def load_library(yaml_file)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {} }
   library.each do
     |key, value| 
-    library["get_meaning"][]
+    library["get_meaning"][value]
   
 end
 
