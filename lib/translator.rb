@@ -2,8 +2,8 @@ require "yaml"
 
 def load_library(yaml_file)
   library = YAML.load_file(yaml_file)
-  new_hash = {
-  library 
+  new_hash = {"get_meaning" => {}, "get_emoticon" => {} }
+  
 end
 
 def get_japanese_emoticon
